@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Monitoring with Puppet</title>
+    
+    <meta name="author" content="Sam Kottler" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+<div id="impress">
+    <div id="initial" class="step slide" data-x="-1000" data-y="-1500">
+      <center>
+        <h1 style="font-size: 100px; margin: 100px 0 155px 0;">Sam Kottler</h1>
+        <img src="https://d1v6x81qdeozhc.cloudfront.net/static/assets/marketing/phone-85ea2888f8d18ac8f8559b5a5de0c552.png" alt="Phone with Venmo" />
+      </center>
+    </div>
+    <div class="step slide" data-x="0" data-y="-1500">
+      <center><h1 style="font-size: 90px; margin-top: 25px;">About Me</h1></center>
+      <ul class="about">
+        <li>18 years old</li>
+        <li>Freshman at Wheaton College in MA</li>
+        <li>I run ops at Venmo</li>
+      </ul>
+    </div>
+
+    <!--<div class="step slide" data-x="1000" data-y="-1500">
+        <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
+      </div>-->
+
+    <div id="money" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+      We deal with <strong>money all day</strong>
+    </div>
+
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">monitoring is really</span>
+        <center><h1>hard*</h1></center>
+        <span class="footnote"><sup>*</sup> puppet can make it less painful</span>
+    </div>
+
+
+    <div id="problems" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+      Let's take a <strong>look</strong> at the some of the <strong>problems</strong>
+    </div>
+
+    <div id="config-file" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+      <p><strong>flat configuration files</strong> are great</p>
+    </div>
+
+    <div id="insane" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p>Until there are so<b class="positioning"> many</b> nodes that files are <b class="rotating">insane</b></p>
+    </div>
+
+    <div id="on-the-fly" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <p>Puppet gives us an awesome way to build these files on the fly!</p>
+    </div>
+
+    <div id="enc" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+      <q><strong>use the ENC</strong>, Luke!</q>
+    </div>
+
+    <div id="whats-an-enc" class="step" data-x="6000" data-y="4000" data-scale="2">
+      <h1 style="font-size: 100px;">What is an ENC?</h1>
+    </div>
+
+    <div id="gist-1" class="step" data-x="7000" data-y="4900">
+      <p><script src="https://gist.github.com/2465767.js?file=gistfile1.pp"></script>
+    </div>
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+      There are many different 
+    </div>
+    <div id="last" class="step slide" data-x="8900" data-y="5500">
+      <center><h1 style="font-size: 90px; margin-top: 25px;">Questions?</h1></center>
+      <ul class="about">
+        <li>sam.kottler@venmo.com</li>
+        <li>http://samkottler.com</li>
+        <li>@samkottler</li>
+        <li>We are hiring!</li>
+      </ul>
+      <img style="float: right; margin-top: -75px;" src="https://d1v6x81qdeozhc.cloudfront.net/static/assets/marketing/phone-85ea2888f8d18ac8f8559b5a5de0c552.png" alt="Phone with Venmo" />
+    </div>
+
+</div>
+
+<!--<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>-->
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>

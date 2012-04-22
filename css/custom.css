@@ -1,0 +1,12 @@
+ul.about li {
+  list-style-type: square;
+  margin-top: 20px;
+}
+
+ul.about {
+  margin: 100px 0 0 50px;
+}
+
+.gist-file {
+  font-size: 20px;
+}
